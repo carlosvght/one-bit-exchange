@@ -4,6 +4,7 @@
 // that code so it'll be compiled.
 import "../stylesheets/application"
 
+require('./exchanges')
 require("@rails/ujs").start()
 require("turbolinks").start()
 require("@rails/activestorage").start()
